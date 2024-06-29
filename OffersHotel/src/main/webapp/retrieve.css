@@ -1,0 +1,79 @@
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+/* Main container styles */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 50px;
+}
+
+/* Card styles */
+.card {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.7);
+
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Card header styles */
+.card-header {
+    background-color:  #333;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+}
+
+/* Card body styles */
+.card-body {
+    padding: 20px;
+}
+
+/* Card footer styles */
+.card-footer {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Button styles */
+.card-footer button {
+    padding: 10px 20px;
+    margin: 5px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#edit {
+	background-color: #F4D03F;
+}
+
+#edit:hover {
+    background-color: #D9AF07;	
+}
+
+#delete {
+    background-color: #34495E;
+}
+
+#delete:hover {
+    background-color: #273644;
+}
